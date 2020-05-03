@@ -1,6 +1,7 @@
 # Template Go Standard
 
 ![Go](https://github.com/FrancescoIlario/go-std-tmpl/workflows/Go/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/FrancescoIlario/go-std-tmpl)](https://goreportcard.com/report/github.com/FrancescoIlario/go-std-tmpl)
 ![Docker Image CI](https://github.com/FrancescoIlario/go-std-tmpl/workflows/Docker%20Image%20CI/badge.svg)
 
 Template project based on the [Standard Go Project Layout](https://github.com/golang-standards/project-layout).
