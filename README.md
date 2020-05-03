@@ -16,9 +16,11 @@ It's enriched with the following supports:
 # Setup
 
 Substitute in every file `FrancescoIlario/go-std-tmpl` with your Github path.
-You can use the following line of bash code substituting the `<>`
-```console
-$ grep -iRl FrancescoIlario/go-std-tmpl . | xargs sed -i 's/FrancescoIlario\/go-std-tmpl/<YOUR_GH_ACCOUNT>\/<YOUR_GH_REPO>/g' 
+You can use the following line of bash code substituting the fields `<YOUR_GH_ACCOUNT>` and `<YOUR_GH_REPO>`:
+
+```bash
+grep -iRl FrancescoIlario/go-std-tmpl . \
+    | xargs sed -i 's/FrancescoIlario\/go-std-tmpl/<YOUR_GH_ACCOUNT>\/<YOUR_GH_REPO>/g' 
 ```
 
 ## Visual Studio Code's Remote-Containers
